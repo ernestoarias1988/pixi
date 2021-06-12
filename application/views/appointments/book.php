@@ -278,6 +278,7 @@
                             </div>
                         </div>
 
+                        <!-- Campos ocultos
                         <div class="col-12 col-md-6">
                             <div class="form-group">
                                 <label for="address" class="control-label">
@@ -304,6 +305,7 @@
                                 <textarea id="notes" maxlength="500" class="form-control" rows="1"></textarea>
                             </div>
                         </div>
+                        -->
                     </div>
                 </div>
 
