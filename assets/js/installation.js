@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Open Source Web Scheduler
+ * Pixi - Open Source Web Scheduler
  *
  * @package     EasyAppointments
  * @author      A.Tselegidis <alextselegidis@gmail.com>
@@ -26,7 +26,7 @@ $(function () {
     });
 
     /**
-     * Event: Install Easy!Appointments Button "Click"
+     * Event: Install Pixi Button "Click"
      */
     $install.on('click', function () {
         if (!validate()) {
@@ -49,7 +49,7 @@ $(function () {
         })
             .done(function (response) {
                 $alert
-                    .text('Easy!Appointments has been successfully installed!')
+                    .text('Pixi has been successfully installed!')
                     .addClass('alert-success')
                     .removeClass('hidden');
 

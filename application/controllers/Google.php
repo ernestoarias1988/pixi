@@ -1,13 +1,13 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Open Source Web Scheduler
+ * Pixi - Open Source Web Scheduler
  *
  * @package     EasyAppointments
  * @author      A.Tselegidis <alextselegidis@gmail.com>
  * @copyright   Copyright (c) 2013 - 2020, Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://www.pixi.com
  * @since       v1.0.0
  * ---------------------------------------------------------------------------- */
 
@@ -30,7 +30,7 @@ class Google extends EA_Controller {
     }
 
     /**
-     * Complete synchronization of appointments between Google Calendar and Easy!Appointments.
+     * Complete synchronization of appointments between Google Calendar and Pixi.
      *
      * This method will completely sync the appointments of a provider with his Google Calendar account. The sync period
      * needs to be relatively small, because a lot of API calls might be necessary and this will lead to consuming the
@@ -128,11 +128,11 @@ class Google extends EA_Controller {
 
                         if ($google_event->status == 'cancelled')
                         {
-                            throw new Exception('Event is cancelled, remove the record from Easy!Appointments.');
+                            throw new Exception('Event is cancelled, remove the record from Pixi.');
                         }
 
-                        // If Google Calendar event is different from Easy!Appointments appointment then update
-                        // Easy!Appointments record.
+                        // If Google Calendar event is different from Pixi appointment then update
+                        // Pixi record.
                         $is_different = FALSE;
                         $appt_start = strtotime($appointment['start_datetime']);
                         $appt_end = strtotime($appointment['end_datetime']);
@@ -166,7 +166,7 @@ class Google extends EA_Controller {
                 }
             }
 
-            // Add Google Calendar events that do not exist in Easy!Appointments.
+            // Add Google Calendar events that do not exist in Pixi.
             $google_calendar = $provider['settings']['google_calendar'];
             $google_events = $CI->google_sync->get_sync_events($google_calendar, $start, $end);
 
@@ -199,7 +199,7 @@ class Google extends EA_Controller {
                 $event_end = new DateTime($google_event->getEnd()->getDateTime());
                 $event_end->setTimezone($provider_timezone);
 
-                // Record doesn't exist in the Easy!Appointments, so add the event now.
+                // Record doesn't exist in the Pixi, so add the event now.
                 $appointment = [
                     'start_datetime' => $event_start->format('Y-m-d H:i:s'),
                     'end_datetime' => $event_end->format('Y-m-d H:i:s'),
@@ -257,8 +257,8 @@ class Google extends EA_Controller {
      * tokens in the future.
      *
      * IMPORTANT: Because it is necessary to authorize the application using the web server flow (see official
-     * documentation of OAuth), every Easy!Appointments installation should use its own calendar api key. So in every
-     * api console account, the "http://path-to-Easy!Appointments/google/oauth_callback" should be included in an allowed redirect URL.
+     * documentation of OAuth), every Pixi installation should use its own calendar api key. So in every
+     * api console account, the "http://path-to-Pixi/google/oauth_callback" should be included in an allowed redirect URL.
      */
     public function oauth_callback()
     {

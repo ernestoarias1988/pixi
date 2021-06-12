@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <title><?= isset($page_title) ? $page_title : lang('backend_section') ?> | Easy!Appointments</title>
+    <title><?= isset($page_title) ? $page_title : lang('backend_section') ?> | Pixi</title>
 
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/jquery-ui/jquery-ui.min.css') ?>">
@@ -40,8 +40,8 @@
 <nav id="header" class="navbar navbar-expand-md navbar-dark">
     <div id="header-logo" class="navbar-brand">
         <img src="<?= base_url('assets/img/logo.png') ?>">
-        <h6>EASY!APPOINTMENTS</h6>
-        <small>Open Source Appointment Scheduler</small>
+        <h6>Pixi</h6>
+        <small>Sistema de turnos</small>
     </div>
 
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#header-menu">

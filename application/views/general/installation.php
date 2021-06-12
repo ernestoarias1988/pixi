@@ -29,7 +29,7 @@
           . Remember to use the <strong class="text-primary"><?= site_url('backend') ?></strong>
             url para conectar el backend
 
-            If you face any problems during the usage of Easy!Appointments you can always check the
+            If you face any problems during the usage of Pixi you can always check the
             <a href="http://easyappointments.org/docs.html">Documentation</a>
             and <a href="http://groups.google.com/group/easy-appointments">Support Group</a> for getting help. You
             may also submit new issues on
@@ -113,8 +113,8 @@
 
     <p>
     <h3>License</h3>
-    Easy!Appointments is licensed under the <span class="badge badge-default">GPL-3.0 license</span>.
-    By using the code of Easy!Appointments in any way <br> you agree with the terms described in the
+    Pixi is licensed under the <span class="badge badge-default">GPL-3.0 license</span>.
+    By using the code of Pixi in any way <br> you agree with the terms described in the
     following url:
     <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a>
     </p>
@@ -123,12 +123,12 @@
 
     <button type="button" id="install" class="btn btn-success btn-large">
         <i class="icon-white icon-ok mr-2"></i>
-        Install Easy!Appointments
+        Install Pixi
     </button>
 </div>
 
 <footer>
-    Powered by <a href="https://easyappointments.org">Easy!Appointments</a>
+    Desarrollado por <a href="https://www.pixi.com">Pixi</a>
 </footer>
 
 <script>

@@ -397,9 +397,9 @@
             <div id="frame-footer">
                 <small>
                     <span class="footer-powered-by">
-                        Powered By
+                        Desarrollado por
 
-                        <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
+                        <a href="https://www.pixi.com" target="_blank">Pixi</a>
                     </span>
 
                     <span class="footer-options">

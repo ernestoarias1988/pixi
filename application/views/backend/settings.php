@@ -498,7 +498,7 @@
         <!-- ABOUT TAB -->
 
         <div class="tab-pane" id="about-app">
-            <h3>Easy!Appointments</h3>
+            <h3>Pixi</h3>
 
             <p>
                 <?= lang('about_app_info') ?>
@@ -518,7 +518,7 @@
 
                 <br><br>
 
-                <a href="https://easyappointments.org">
+                <a href="https://www.pixi.com">
                     <?= lang('official_website') ?>
                 </a>
                 |

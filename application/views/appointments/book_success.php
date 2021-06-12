@@ -62,8 +62,8 @@
 
             <div class="mt-2">
                 <small>
-                    Powered by
-                    <a href="https://easyappointments.org">Easy!Appointments</a>
+                    Desarrollado por
+                    <a href="https://www.pixi.com">Pixi</a>
                 </small>
             </div>
         </div>

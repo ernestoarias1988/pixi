@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Open Source Web Scheduler
+ * Pixi - Open Source Web Scheduler
  *
  * @package     EasyAppointments
  * @author      A.Tselegidis <alextselegidis@gmail.com>
@@ -617,7 +617,7 @@ window.GeneralFunctions = window.GeneralFunctions || {};
         var dayArray;
 
         // It's necessary to manually parse the date because Date.parse() not support some formats tha instead are
-        // supported by Easy!Appointments. The unsupported format is dd/MM/yyyy.
+        // supported by Pixi. The unsupported format is dd/MM/yyyy.
         switch (dateFormatSetting) {
             case 'DMY':
                 dayArray = date.split('/');

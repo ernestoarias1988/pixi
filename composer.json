@@ -1,19 +1,19 @@
 {
     "name": "alextselegidis/easyappointments",
     "description": "Open Source Web Scheduler",
-    "homepage": "https://easyappointments.org",
+    "homepage": "https://www.pixi.com",
     "type": "project",
     "license": "GPL-3.0",
     "authors": [
         {
-            "name": "Alex Tselegidis",
-            "email": "alextselegidis@gmail.com"
+            "name": "Ernesto Arias",
+            "email": "ernesarias13@gmail.com"
         }
     ],
     "support": {
         "issues": "https://github.com/alextselegidis/easyappointments/issues",
         "forum": "https://groups.google.com/forum/#!forum/easy-appointments",
-        "wiki": "https://easyappointments.org/docs",
+        "wiki": "https://www.pixi.com/docs",
         "source": "https://github.com/alextselegidis/easyappointments"
     },
     "keywords": [

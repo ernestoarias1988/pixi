@@ -2,10 +2,10 @@
 
 /*
 |--------------------------------------------------------------------------
-| Easy!Appointments - Internal Configuration
+| Pixi - Internal Configuration
 |--------------------------------------------------------------------------
 |
-| Declare some of the global config values of Easy!Appointments.
+| Declare some of the global config values of Pixi.
 |
 */
 $config['version'] = '1.4.1'; // This must be changed manually.

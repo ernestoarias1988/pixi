@@ -109,7 +109,7 @@
               // Create and open the modal
               var searchInput = '<input name="" class="' + prefix + 'giphy-search" placeholder="Search a GIF" autofocus="autofocus">',
                   closeButton = '<button class="' + prefix + 'giphy-close" title="' + trumbowyg.lang.close + '"><svg><use xlink:href="' + trumbowyg.svgPath + '#' + prefix + 'close"/></svg></button>',
-                  poweredByGiphy = '<div class="' + prefix + 'powered-by-giphy"><span>Powered by</span>' + giphyLogo + '</div>',
+                  poweredByGiphy = '<div class="' + prefix + 'powered-by-giphy"><span>Desarrollado por</span>' + giphyLogo + '</div>',
                   giphyModalHtml = searchInput + closeButton + poweredByGiphy + '<div class="' + prefix + 'giphy-modal-scroll"><div class="' + prefix + 'giphy-modal"></div></div>';
 
               trumbowyg

@@ -1,13 +1,13 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Open Source Web Scheduler
+ * Pixi - Open Source Web Scheduler
  *
  * @package     EasyAppointments
  * @author      A.Tselegidis <alextselegidis@gmail.com>
  * @copyright   Copyright (c) 2013 - 2020, Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://www.pixi.com
  * @since       v1.2.0
  * ---------------------------------------------------------------------------- */
 
@@ -131,7 +131,7 @@ class API_V1_Controller extends EA_Controller {
      */
     protected function request_authentication()
     {
-        header('WWW-Authenticate: Basic realm="Easy!Appointments"');
+        header('WWW-Authenticate: Basic realm="Pixi"');
         header('HTTP/1.0 401 Unauthorized');
         exit('You are not authorized to use the API.');
     }

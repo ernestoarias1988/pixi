@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#35A768">
-    <title><?= lang('login') ?> | Easy!Appointments</title>
+    <title><?= lang('login') ?> | Pixi</title>
 
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/jquery-ui/jquery-ui.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.min.css') ?>">
@@ -74,8 +74,8 @@
 
         <div class="mt-4">
             <small>
-                Powered by
-                <a href="https://easyappointments.org">Easy!Appointments</a>
+                Desarrollado por
+                <a href="https://www.pixi.com">Pixi</a>
             </small>
         </div>
     </form>

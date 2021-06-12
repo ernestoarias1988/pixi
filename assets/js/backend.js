@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Open Source Web Scheduler
+ * Pixi - Open Source Web Scheduler
  *
  * @package     EasyAppointments
  * @author      A.Tselegidis <alextselegidis@gmail.com>
@@ -23,7 +23,7 @@ window.Backend = window.Backend || {};
     'use strict';
 
     /**
-     * Main javascript code for the backend of Easy!Appointments.
+     * Main javascript code for the backend of Pixi.
      */
     $(function () {
         $(window)

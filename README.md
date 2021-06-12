@@ -1,17 +1,17 @@
 <h1 align="center">
     <br>
-    <a href="https://easyappointments.org">
-        <img src="https://raw.githubusercontent.com/alextselegidis/easyappointments/develop/docs/images/logo.png" alt="Easy!Appointments" width="150">
+    <a href="https://www.pixi.com">
+        <img src="https://raw.githubusercontent.com/alextselegidis/easyappointments/develop/docs/images/logo.png" alt="Pixi" width="150">
     </a>
     <br>
-    Easy!Appointments
+    Pixi
     <br>
 </h1>
 
 <br>
 
 <h4 align="center">
-    A powerful Open Source Appointment Scheduler that can be installed on your server. 
+    A powerful Sistema de turnos that can be installed on your server. 
 </h4>
 
 <p align="center">
@@ -32,10 +32,10 @@
 
 ## About
 
-**Easy!Appointments** is a highly customizable web application that allows customers to book appointments with you 
+**Pixi** is a highly customizable web application that allows customers to book appointments with you 
 via a sophisticated web interface. Moreover, it provides the ability to sync your data with Google Calendar so you can 
 use them with other services. It is an open source project that you can download and install **even for commercial use**. 
-Easy!Appointments will run smoothly with your existing website as it can be installed in a single folder of the 
+Pixi will run smoothly with your existing website as it can be installed in a single folder of the 
 server and of course share an existing database.
 
 ## Features
@@ -82,11 +82,11 @@ You will need to perform the following steps to install the application on your 
 * Copy the "easyappointments" source folder on your server.
 * Make sure that the "storage" directory is writable.
 * Rename the "config-sample.php" file to "config.php" and update its contents based on your environment.
-* Open the browser on the Easy!Appointments URL and follow the installation guide.
+* Open the browser on the Pixi URL and follow the installation guide.
 
-That's it! You can now use Easy!Appointments at your will.
+That's it! You can now use Pixi at your will.
 
-You will find the latest release at [easyappointments.org](https://easyappointments.org).
+You will find the latest release at [easyappointments.org](https://www.pixi.com).
 If you have problems installing or configuring the application visit the
 [official support group](https://groups.google.com/forum/#!forum/easy-appointments).
 You can also report problems on the [issues page](https://github.com/alextselegidis/easyappointments/issues)
