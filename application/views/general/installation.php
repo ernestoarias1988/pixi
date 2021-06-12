@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-    <title>Installation | Easy!Appointments</title>
+    <title>Instalación Pixi</title>
 
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.min.css') ?>">
     <link rel="icon" type="image/x-icon" href="<?= asset_url('assets/img/favicon.ico') ?>">
@@ -18,18 +18,16 @@
 
 <header>
     <div class="container">
-        <h1 class="page-title">Easy!Appointments Installation</h1>
+        <h1 class="page-title">Instalación Pixi</h1>
     </div>
 </header>
 
 <div class="content container">
     <div class="welcome">
-        <h3>Welcome to the Easy!Appointments installation page.</h3>
+        <h3>Bienvenidos a la página de instalación de pixi.</h3>
         <p>
-            This page will help you set the main settings of your Easy!Appointments installation.
-            You will be able to edit these settings and many more in the backend session of your
-            system. Remember to use the <strong class="text-primary"><?= site_url('backend') ?></strong>
-            url to connect to the backend section of Easy!Appointments.
+          . Remember to use the <strong class="text-primary"><?= site_url('backend') ?></strong>
+            url para conectar el backend
 
             If you face any problems during the usage of Easy!Appointments you can always check the
             <a href="http://easyappointments.org/docs.html">Documentation</a>
