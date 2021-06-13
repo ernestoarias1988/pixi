@@ -5,10 +5,10 @@
 // @link https://codeigniter.com/user_guide/libraries/email.html
 
 $config['useragent'] = 'Pixi';
-$config['protocol'] = 'mail'; // or 'smtp'
+$config['protocol'] = 'smtp'; // or 'smtp'
 $config['mailtype'] = 'html'; // or 'text'
-//$config['smtp_host'] = 'smtp.gmail.com';
-//$config['smtp_user'] = '';
-//$config['smtp_pass'] = '';
-// $config['smtp_crypto'] = 'ssl'; // or 'tls'
-//$config['smtp_port'] = 25;
+$config['smtp_host'] = 'smtp.gmail.com';
+$config['smtp_user'] = 'pixiappinfo@gmail.com';
+$config['smtp_pass'] = 'Pancho013';
+$config['smtp_crypto'] = 'ssl'; // or 'tls'
+$config['smtp_port'] = 25;
