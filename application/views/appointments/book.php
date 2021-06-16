@@ -278,7 +278,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <!-- <div class="col-12 col-md-6">
                             <div class="form-group">
                                 <label for="address" class="control-label">
                                     <?= lang('address') ?>
@@ -303,7 +303,7 @@
                                 </label>
                                 <textarea id="notes" maxlength="500" class="form-control" rows="1"></textarea>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
