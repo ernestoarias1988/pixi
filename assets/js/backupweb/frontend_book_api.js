@@ -163,7 +163,7 @@ window.FrontendBookApi = window.FrontendBookApi || {};
 
         var url = GlobalVariables.baseUrl + '/index.php/appointments/ajax_register_appointment';
 
-        var $layer = $('<img src="assets/img/loading2.gif" />');
+        var $layer = $('<img src="assets/img/loading.gif" />');
 
         $.ajax({
             url: url,
@@ -174,7 +174,7 @@ window.FrontendBookApi = window.FrontendBookApi || {};
                 $layer
                     .appendTo('body')
                     .css({
-                        background: 'Black',
+                        background: 'white',
                         position: 'fixed',
                         top: '0',
                         left: '0',

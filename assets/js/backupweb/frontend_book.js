@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------------------
- * Pixi - Open Source Web Scheduler
+ * Easy!Appointments - Open Source Web Scheduler
  *
  * @package     EasyAppointments
  * @author      A.Tselegidis <alextselegidis@gmail.com>
@@ -65,7 +65,7 @@ window.FrontendBook = window.FrontendBook || {};
                         text: '#666666'
                     },
                     button: {
-                        background: '#1f3450',
+                        background: '#429a82',
                         text: '#ffffff'
                     }
                 },
@@ -424,7 +424,7 @@ window.FrontendBook = window.FrontendBook || {};
          *
          * @param {jQuery.Event} event
          */
-        $('#book-appointment-submit').on('click', function () {            
+        $('#book-appointment-submit').on('click', function () {
             FrontendBookApi.registerAppointment();
         });
 
