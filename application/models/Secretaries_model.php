@@ -100,7 +100,7 @@ class Secretaries_model extends EA_Model {
         // Validate secretary email address.
         if ( ! filter_var($secretary['email'], FILTER_VALIDATE_EMAIL))
         {
-            throw new Exception('Invalid email address provided: ' . $secretary['email']);
+            throw new Exception('Dirección de correo inválida: ' . $secretary['email']);
         }
 
         // Check if username exists.

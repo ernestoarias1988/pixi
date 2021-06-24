@@ -382,6 +382,7 @@
                         <?= lang('back') ?>
                     </button>
                     <form id="book-appointment-form" style="display:inline-block" method="post">
+                        
                         <button id="book-appointment-submit" type="button" class="btn btn-success">
                             <i class="fas fa-check-square mr-2"></i>
                             <?= ! $manage_mode ? lang('confirm') : lang('update') ?>

@@ -92,7 +92,7 @@ class Admins_model extends EA_Model {
         // Validate admin email address.
         if ( ! filter_var($admin['email'], FILTER_VALIDATE_EMAIL))
         {
-            throw new Exception('Invalid email address provided: ' . $admin['email']);
+            throw new Exception('Dirección de correo inválida: ' . $admin['email']);
         }
 
         // Check if username exists.

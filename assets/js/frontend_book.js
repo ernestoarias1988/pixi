@@ -425,6 +425,7 @@ window.FrontendBook = window.FrontendBook || {};
          * @param {jQuery.Event} event
          */
         $('#book-appointment-submit').on('click', function () {
+			$(this).html('<img src="assets/img/loading.gif" />');
             FrontendBookApi.registerAppointment();
         });
 
