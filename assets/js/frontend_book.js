@@ -588,7 +588,7 @@ window.FrontendBook = window.FrontendBook || {};
                         $('<span/>', {
                             'text': EALang.email + ': ' + email
                         }),
-                        $('<br/>'),
+                   /**     $('<br/>'),
                         $('<span/>', {
                             'text': address ? EALang.address + ': ' + address : ''
                         }),
@@ -600,7 +600,7 @@ window.FrontendBook = window.FrontendBook || {};
                         $('<span/>', {
                             'text': zipCode ? EALang.zip_code + ': ' + zipCode : ''
                         }),
-                        $('<br/>'),
+                        $('<br/>'),*/
                     ]
                 })
             ]

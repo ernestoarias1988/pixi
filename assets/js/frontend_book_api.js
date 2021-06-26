@@ -163,7 +163,7 @@ window.FrontendBookApi = window.FrontendBookApi || {};
 
         var url = GlobalVariables.baseUrl + '/index.php/appointments/ajax_register_appointment';
 
-        var $layer = $('<img src="assets/img/loading2.gif" />');
+        var $layer = $('<img src="assets/img/loading2.gif"/>');
 
         $.ajax({
             url: url,
@@ -176,10 +176,8 @@ window.FrontendBookApi = window.FrontendBookApi || {};
                     .css({
                         background: 'Black',
                         position: 'fixed',
-                        top: '0',
-                        left: '0',
-                        height: '100vh',
-                        width: '100vw',
+                        height: '50%',
+                        width: '50%',
                         opacity: '0.5'
                     });
             }
