@@ -129,7 +129,7 @@ body {
     height: 35px;
     width: 35px;
     float: left;
-    background: #225d4d;
+    background: #456FA8;
     padding: 8px;
     margin-right: 12px;
     margin-top: 6px;
@@ -145,7 +145,7 @@ body {
     font-size: 12px;
     display: block;
     text-align: center;
-    color: #0bb98d;
+    color: #333333;
     transition: all .3s linear;
     cursor: default;
 }
@@ -189,8 +189,8 @@ body {
 }
 
 #book-appointment-wizard #available-hours .selected-hour {
-    background-color: #439a82;
-    border-color: #439a82;
+    background-color: #1F3450;
+    border-color: #1F3450;
     color: white;
 }
 
