@@ -176,8 +176,10 @@ window.FrontendBookApi = window.FrontendBookApi || {};
                     .css({
                         background: 'Black',
                         position: 'fixed',
-                        height: '50%',
-                        width: '50%',
+                        top: '0',
+                        left: '0',
+                        height: '100vh',
+                        width: '100vw',
                         opacity: '0.5'
                     });
             }
