@@ -33,20 +33,16 @@
 
 <div id="settings-page" class="container-fluid backend-page">
     <ul class="nav nav-pills">
-         <!-- 
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
             <li class="nav-item">
                 <a class="nav-link" href="#general" data-toggle="tab"><?= lang('general') ?></a>
             </li>
         <?php endif ?>
-        -->
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
             <li class="nav-item">
-                <a class="nav-link" href="#business-logic" data-toggle="tab"><?= 'Horarios Predefinidos' ?></a>
+                <a class="nav-link" href="#business-logic" data-toggle="tab"><?= lang('business_logic') ?></a>
             </li>
-             
         <?php endif ?>
-        <!-- 
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
             <li class="nav-item">
                 <a class="nav-link" href="#legal-contents" data-toggle="tab"><?= lang('legal_contents') ?></a>
@@ -60,7 +56,6 @@
         <li class="nav-item">
             <a class="nav-link" href="#about-app" data-toggle="tab"><?= lang('about_app') ?></a>
         </li>
-           -->
     </ul>
 
     <div class="tab-content">
@@ -227,11 +222,11 @@
                     <legend class="border-bottom mb-4">
                         <?= lang('business_logic') ?>
                         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['edit'] == TRUE): ?>
-                            <!-- <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
+                            <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
                                     data-tippy-content="<?= lang('save') ?>">
                                 <i class="fas fa-check-square mr-2"></i>
                                 <?= lang('save') ?>
-                            </button> -->
+                            </button>
                         <?php endif ?>
                     </legend>
 
