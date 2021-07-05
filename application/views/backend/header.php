@@ -73,23 +73,23 @@
 
             <?php $hidden = ($privileges[PRIV_SERVICES]['view'] == TRUE) ? '' : 'd-none' ?>
             <?php $active = ($active_menu == PRIV_SERVICES) ? 'active' : '' ?>
-            <li class="nav-item <?= $active . $hidden ?>">
+            <!-- <li class="nav-item <?= $active . $hidden ?>">
                 <a href="<?= site_url('backend/services') ?>" class="nav-link"
                    data-tippy-content="<?= lang('manage_services_hint') ?>">
                     <i class="fas fa-business-time mr-2"></i>
                     <?= lang('services') ?>
                 </a>
-            </li>
+            </li> -->
 
             <?php $hidden = ($privileges[PRIV_USERS]['view'] == TRUE) ? '' : 'd-none' ?>
             <?php $active = ($active_menu == PRIV_USERS) ? 'active' : '' ?>
-            <li class="nav-item <?= $active . $hidden ?>">
+            <!-- <li class="nav-item <?= $active . $hidden ?>">
                 <a href="<?= site_url('backend/users') ?>" class="nav-link"
                    data-tippy-content="<?= lang('manage_users_hint') ?>">
                     <i class="fas fa-users-cog mr-2"></i>
                     <?= lang('users') ?>
                 </a>
-            </li>
+            </li> -->
 
             <?php $hidden = ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE
                 || $privileges[PRIV_USER_SETTINGS]['view'] == TRUE) ? '' : 'd-none' ?>

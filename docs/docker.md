@@ -15,7 +15,7 @@ class Config {
     // ------------------------------------------------------------------------
     
     const BASE_URL      = 'http://localhost:8000'; 
-    const LANGUAGE      = 'english';
+    const LANGUAGE      = 'spanish';
     const DEBUG_MODE    = TRUE;
 
     // ------------------------------------------------------------------------

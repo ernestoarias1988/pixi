@@ -185,7 +185,7 @@
 
         <!-- CATEGORIES TAB -->
 
-        <div class="tab-pane" id="categories">
+        <!-- <div class="tab-pane" id="categories">
             <div class="row">
                 <div id="filter-categories" class="filter-records column col-12 col-md-5">
                     <form class="input-append mb-4">
@@ -264,5 +264,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>

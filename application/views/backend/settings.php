@@ -33,18 +33,20 @@
 
 <div id="settings-page" class="container-fluid backend-page">
     <ul class="nav nav-pills">
-         <!-- 
-        <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
-            <li class="nav-item">
-                <a class="nav-link" href="#general" data-toggle="tab"><?= lang('general') ?></a>
-            </li>
-        <?php endif ?>
-        -->
+         
+  
+       
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
             <li class="nav-item">
                 <a class="nav-link" href="#business-logic" data-toggle="tab"><?= 'Horarios Predefinidos' ?></a>
             </li>
              
+        <?php endif ?>
+
+        <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
+            <li class="nav-item">
+                <a class="nav-link" href="#general" data-toggle="tab"><?= 'Configuración' ?></a>
+            </li>
         <?php endif ?>
         <!-- 
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
@@ -225,7 +227,7 @@
             <form>
                 <fieldset>
                     <legend class="border-bottom mb-4">
-                        <?= lang('business_logic') ?>
+                        <!-- <?= lang('business_logic') ?> -->
                         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['edit'] == TRUE): ?>
                             <!-- <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
                                     data-tippy-content="<?= lang('save') ?>">
@@ -256,7 +258,7 @@
                             <div class="text-right">
                                 <button class="btn btn-outline-secondary" id="apply-global-working-plan" type="button">
                                     <i class="fas fa-check"></i>
-                                    <?= lang('apply_to_all_providers') ?>
+                                    <?= 'Aplicar Cambios' ?>
                                 </button>
                             </div>
 
