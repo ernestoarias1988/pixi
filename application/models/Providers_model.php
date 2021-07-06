@@ -174,8 +174,8 @@ class Providers_model extends EA_Model {
 
         if ($num_rows > 0)
         {
-            throw new Exception('Given email address belongs to another provider record. '
-                . 'Please use a different email.');
+            throw new Exception('No puede crear un nuevo cliente con un mail ya existente. '
+                . 'Por favor seleccione otro mail o busque el cliente.');
         }
 
         return TRUE;
