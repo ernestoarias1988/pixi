@@ -239,7 +239,7 @@ li.language:hover {
 
 .ui-timepicker-div dl dd.ui_tpicker_hour,
 .ui-timepicker-div dl dd.ui_tpicker_minute {
-    padding-top: 8px;
+    padding-top: 0px;
 }
 
 .ui-timepicker-div td {
