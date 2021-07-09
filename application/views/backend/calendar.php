@@ -272,17 +272,18 @@
 
                     <fieldset>
                         <legend>
-                            <?= lang('customer_details_title') ?>
-                            <button id="new-customer" class="btn btn-outline-secondary btn-sm" type="button"
-                                    data-tippy-content="<?= lang('clear_fields_add_existing_customer_hint') ?>">
+                            <?= 'Crear nuevo Cliente / Seleccionar existente' ?>
+                            <br>
+                            <!-- <button id="new-customer" class="btn btn-outline-secondary btn-sm" type="button"
+                                    data-tippy-content="<?= 'Complete los datos y guarde el nuevo cliente' ?>">
                                 <i class="fas fa-plus-square mr-2"></i>
-                                <?= lang('new') ?>
-                            </button>
+                                <?= 'Crear Ciente' ?>
+                            </button> -->
                             <button id="select-customer" class="btn btn-outline-secondary btn-sm" type="button"
-                                    data-tippy-content="<?= lang('pick_existing_customer_hint') ?>">
+                                    data-tippy-content="<?= 'Buscar cliente existente' ?>">
                                 <i class="fas fa-hand-pointer mr-2"></i>
                                 <span>
-                                    <?= lang('select') ?>
+                                    <?= 'Seleccionar existente' ?>
                                 </span>
                             </button>
                             <input id="filter-existing-customers"
