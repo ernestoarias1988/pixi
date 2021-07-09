@@ -69,7 +69,7 @@
                 <!-- <div class="btn-group"> -->
                     <button class="btn btn-light" id="insert-appointment">
                         <i class="fas fa-plus-square mr-2"></i>
-                        <?= lang('appointment') ?>
+                       Crear Cita
                     </button>
 
                     <!-- <button class="btn btn-light dropdown-toggle" id="insert-dropdown" data-toggle="dropdown">
@@ -240,18 +240,7 @@
                                            class="control-label"><?= lang('start_date_time') ?></label>
                                     <input id="start-datetime" class="required form-control">
                                 </div>
-                                    <script>
-                                    var field = document.createElement('input');
-field.setAttribute('type', 'text');
-document.body.appendChild(field);
-
-setTimeout(function() {
-    field.focus();
-    setTimeout(function() {
-        field.setAttribute('style', 'display:none;');
-    }, 50);
-}, 50);
-                                     </script>
+                        
                                 <div class="form-group">
                                     <label for="end-datetime" class="control-label"><?= lang('end_date_time') ?></label>
                                     <input id="end-datetime" class="required form-control">

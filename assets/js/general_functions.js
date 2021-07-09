@@ -334,7 +334,7 @@ window.GeneralFunctions = window.GeneralFunctions || {};
             'html': [
                 $('<div/>', {
                     'class': 'card-body',
-                    'html': response.message || '→ No error information provided.'
+                    'html': response.message || '→ Intente nuevamente.'
                 })
             ]
         })
