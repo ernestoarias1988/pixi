@@ -23,7 +23,7 @@
                     <input class="form-control" id="working-plan-exceptions-end">
                 </div>
 
-                <h3><?= lang('breaks') ?></h3>
+                <!-- <h3><?= lang('breaks') ?></h3>
 
                 <p>
                     <?= lang('add_breaks_during_each_day') ?>
@@ -44,7 +44,7 @@
                         <th><?= lang('start') ?></th>
                         <th><?= lang('end') ?></th>
                         <th><?= lang('actions') ?></th>
-                    </tr>
+                    </tr> -->
                     </thead>
                     <tbody><!-- Dynamic Content --></tbody>
                 </table>
