@@ -181,17 +181,17 @@
                                     <?= lang('customer_notifications_hint') ?>
                                 </span>
                             </div>
-                            <div class="form-group">
-                                <!-- <div class="custom-control custom-switch">
+                            <!-- <div class="form-group">
+                                <div class="custom-control custom-switch">
                                     <input type="checkbox" class="custom-control-input" id="require-captcha">
                                     <label class="custom-control-label" for="require-captcha">
                                         CAPTCHA
                                     </label>
-                                </div> -->
+                                </div>
                                 <span class="form-text text-muted">
                                     <?= lang('require_captcha_hint') ?>
                                 </span>
-                            </div>
+                            </div> -->
                             <div class="form-group">
                                 <div class="custom-control custom-switch">
                                     <input type="checkbox" class="custom-control-input" id="require-phone-number">
