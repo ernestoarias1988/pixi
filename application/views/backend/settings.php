@@ -153,7 +153,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-sm-6">
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <label for="google-analytics-code">
                                     Google Analytics ID</label>
                                 <input id="google-analytics-code" placeholder="UA-XXXXXXXX-XX"
@@ -161,14 +161,14 @@
                                 <span class="help-block">
                                     <?= lang('google_analytics_code_hint') ?>
                                 </span>
-                            </div>
-                            <div class="form-group">
+                            </div> -->
+                            <!-- <div class="form-group">
                                 <label for="api-token">API Token</label>
                                 <input id="api-token" data-field="api_token" class="form-control">
                                 <span class="help-block">
                                     <?= lang('api_token_hint') ?>
                                 </span>
-                            </div>
+                            </div> -->
 
                             <div class="form-group">
                                 <div class="custom-control custom-switch">
@@ -182,12 +182,12 @@
                                 </span>
                             </div>
                             <div class="form-group">
-                                <div class="custom-control custom-switch">
+                                <!-- <div class="custom-control custom-switch">
                                     <input type="checkbox" class="custom-control-input" id="require-captcha">
                                     <label class="custom-control-label" for="require-captcha">
                                         CAPTCHA
                                     </label>
-                                </div>
+                                </div> -->
                                 <span class="form-text text-muted">
                                     <?= lang('require_captcha_hint') ?>
                                 </span>
@@ -203,7 +203,7 @@
                                     <?= lang('require_phone_number_hint') ?>
                                 </span>
                             </div>
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <div class="custom-control custom-switch">
                                     <input type="checkbox" class="custom-control-input" id="display-any-provider">
                                     <label class="custom-control-label" for="display-any-provider">
@@ -213,7 +213,7 @@
                                 <span class="help-block">
                                     <?= lang('display_any_provider_hint') ?>
                                 </span>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </fieldset>
