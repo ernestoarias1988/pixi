@@ -69,7 +69,7 @@
                 <!-- <div class="btn-group"> -->
                     <button class="btn btn-light" id="insert-appointment">
                         <i class="fas fa-plus-square mr-2"></i>
-                       Crear Cita
+                       Crear Nueva Cita
                     </button>
 
                     <!-- <button class="btn btn-light dropdown-toggle" id="insert-dropdown" data-toggle="dropdown">
@@ -85,7 +85,7 @@
                         <a class="btn btn-light" href="#" id="insert-working-plan-exception"
                             <?= $this->session->userdata('role_slug') !== 'admin' ? 'hidden' : '' ?>>
                             <i class="fas fa-plus-square mr-2"></i>
-                            <?= 'Modificar horario de atención' ?>
+                            <?= 'modificar horario laboral (1 día)' ?>
                         </a>
                     <!-- </div> -->
                 <!-- </div> -->
@@ -277,7 +277,7 @@
                             <!-- <button id="new-customer" class="btn btn-outline-secondary btn-sm" type="button"
                                     data-tippy-content="<?= 'Complete los datos y guarde el nuevo cliente' ?>">
                                 <i class="fas fa-plus-square mr-2"></i>
-                                <?= 'Crear Ciente' ?>
+                                <?= 'Limpiar campos' ?>
                             </button> -->
                             <button id="select-customer" class="btn btn-outline-secondary btn-sm" type="button"
                                     data-tippy-content="<?= 'Buscar cliente existente' ?>">

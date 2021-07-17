@@ -43,7 +43,7 @@
                 </a>
 
                 <?php if (config('google_sync_feature')): ?>
-                    <button id="add-to-google-calendar" class="btn btn-primary">
+                    <!-- <button id="add-to-google-calendar" class="btn btn-primary"> -->
                         <i class="fas fa-plus"></i>
                         <?= lang('add_to_google_calendar') ?>
                     </button>

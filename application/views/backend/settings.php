@@ -38,7 +38,7 @@
        
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
             <li class="nav-item">
-                <a class="nav-link" href="#business-logic" data-toggle="tab"><?= 'Horarios Predefinidos' ?></a>
+                <a class="nav-link" href="#business-logic" data-toggle="tab"><?= 'Horario laboral  y no laboral predefinido' ?></a>
             </li>
              
         <?php endif ?>
@@ -300,8 +300,15 @@
                                     <th><?= lang('actions') ?></th>
                                 </tr>
                                 </thead>
+                                
                                 <tbody><!-- Dynamic Content --></tbody>
                             </table>
+                            <div class="text-right">
+                                <button class="btn btn-outline-secondary" id="apply-global-working-plan1" type="button">
+                                    <i class="fas fa-check"></i>
+                                    <?= 'Aplicar Cambios' ?>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </fieldset>

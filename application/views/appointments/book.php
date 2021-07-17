@@ -403,7 +403,7 @@
                         <a href="https://www.pixi.com" target="_blank">Pixi</a>
                     </span>
 
-                    <span class="footer-options">
+                    <!-- <span class="footer-options">
                         <span id="select-language" class="badge badge-secondary">
                             <i class="fas fa-language mr-2"></i>
                             <?= ucfirst(config('language')) ?>
@@ -413,7 +413,7 @@
                             <i class="fas fa-sign-in-alt mr-2"></i>
                             <?= $this->session->user_id ? lang('backend_section') : lang('login') ?>
                         </a>
-                    </span>
+                    </span> -->
                 </small>
             </div>
         </div>
