@@ -256,37 +256,37 @@ window.BackendSettings = window.BackendSettings || {};
             GeneralFunctions.displayMessageBox(EALang.working_plan, EALang.overwrite_existing_working_plans, buttons);
         });
         
-        $('#apply-global-working-plan1').on('click', function () {
-            var buttons = [
-                {
-                    text: EALang.cancel,
-                    click: function () {
-                        $('#message-box').dialog('close');
-                    }
-                },
-                {
-                    text: 'OK',
-                    click: function () {
-                        var url = GlobalVariables.baseUrl + '/index.php/backend_api/ajax_apply_global_working_plan';
+        // $('#apply-global-working-plan1').on('click', function () {
+        //     var buttons = [
+        //         {
+        //             text: EALang.cancel,
+        //             click: function () {
+        //                 $('#message-box').dialog('close');
+        //             }
+        //         },
+        //         {
+        //             text: 'OK',
+        //             click: function () {
+        //                 var url = GlobalVariables.baseUrl + '/index.php/backend_api/ajax_apply_global_working_plan';
 
-                        var data = {
-                            csrfToken: GlobalVariables.csrfToken,
-                            working_plan: JSON.stringify(exports.wp.get())
-                        };
+        //                 var data = {
+        //                     csrfToken: GlobalVariables.csrfToken,
+        //                     working_plan: JSON.stringify(exports.wp.get())
+        //                 };
 
-                        $.post(url, data)
-                            .done(function () {
-                                Backend.displayNotification(EALang.working_plans_got_updated);
-                            })
-                            .always(function () {
-                                $('#message-box').dialog('close');
-                            });
-                    }
-                }
-            ];
+        //                 $.post(url, data)
+        //                     .done(function () {
+        //                         Backend.displayNotification(EALang.working_plans_got_updated);
+        //                     })
+        //                     .always(function () {
+        //                         $('#message-box').dialog('close');
+        //                     });
+        //             }
+        //         }
+        //     ];
 
-            GeneralFunctions.displayMessageBox(EALang.working_plan, EALang.overwrite_existing_working_plans, buttons);
-        });
+        //     GeneralFunctions.displayMessageBox(EALang.working_plan, EALang.overwrite_existing_working_plans, buttons);
+        // });
     }
 
 })(window.BackendSettings);

@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------------------
- * Pixi - Open Source Web Scheduler
+ * Easy!Appointments - Open Source Web Scheduler
  *
  * @package     EasyAppointments
  * @author      A.Tselegidis <alextselegidis@gmail.com>
@@ -551,32 +551,4 @@ window.BackendCalendarAppointmentsModal = window.BackendCalendarAppointmentsModa
         bindEventHandlers();
     };
 
-        //Change the end time automatically, added by Craig Tucker start
-	//Code from Josep Maria Freixes 
-	//https://groups.google.com/d/msg/easy-appointments/GREEWFvc4n0/jdV646huHAAJ
-	function getServiceDuration(serviceId) {
-        var numServices = GlobalVariables.availableServices.length;
-        for (var i=0; i<numServices; i++) {
-          if (GlobalVariables.availableServices[i].id === serviceId)
-            return GlobalVariables.availableServices[i].duration;
-        }
-        return null;
-      }
-      $( "#select-service, #start-datetime" ).change(function() {
-         var duration = null;
-         $( "#select-service option:selected" ).each(function() {
-           duration = getServiceDuration($( this ).val());
-         });
- 
-         var startTime = null;
-         $( "#start-datetime").each(function() {
-           startTime = $( this ).val();
-         });
- 
-         if (duration !== null && startTime !== null) {
-           var oDate = new Date(Date.parse(startTime).getTime() + duration*60000);
-           $( "#end-datetime" ).datetimepicker('setDate',oDate);
-         }
-      });	
-     //Change the end time automatically, added by Craig Tucker start	
 })(window.BackendCalendarAppointmentsModal);
