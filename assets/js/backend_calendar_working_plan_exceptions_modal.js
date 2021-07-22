@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------------------
- * Pixi - Open Source Web Scheduler
+ * Easy!Appointments - Open Source Web Scheduler
  *
  * @package     EasyAppointments
  * @author      A.Tselegidis <alextselegidis@gmail.com>
