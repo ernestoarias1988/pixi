@@ -33,16 +33,22 @@
 
 <div id="settings-page" class="container-fluid backend-page">
     <ul class="nav nav-pills">
+         
+  
+       
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
             <li class="nav-item">
-                <a class="nav-link" href="#general" data-toggle="tab"><?= lang('general') ?></a>
+                <a class="nav-link" href="#business-logic" data-toggle="tab"><?= 'Horario laboral  y no laboral predefinido' ?></a>
             </li>
+             
         <?php endif ?>
+
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
             <li class="nav-item">
-                <a class="nav-link" href="#business-logic" data-toggle="tab"><?= lang('business_logic') ?></a>
+                <a class="nav-link" href="#general" data-toggle="tab"><?= 'Configuración' ?></a>
             </li>
         <?php endif ?>
+        <!-- 
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
             <li class="nav-item">
                 <a class="nav-link" href="#legal-contents" data-toggle="tab"><?= lang('legal_contents') ?></a>
@@ -56,6 +62,7 @@
         <li class="nav-item">
             <a class="nav-link" href="#about-app" data-toggle="tab"><?= lang('about_app') ?></a>
         </li>
+           -->
     </ul>
 
     <div class="tab-content">
@@ -146,7 +153,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-sm-6">
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <label for="google-analytics-code">
                                     Google Analytics ID</label>
                                 <input id="google-analytics-code" placeholder="UA-XXXXXXXX-XX"
@@ -154,14 +161,14 @@
                                 <span class="help-block">
                                     <?= lang('google_analytics_code_hint') ?>
                                 </span>
-                            </div>
-                            <div class="form-group">
+                            </div> -->
+                            <!-- <div class="form-group">
                                 <label for="api-token">API Token</label>
                                 <input id="api-token" data-field="api_token" class="form-control">
                                 <span class="help-block">
                                     <?= lang('api_token_hint') ?>
                                 </span>
-                            </div>
+                            </div> -->
 
                             <div class="form-group">
                                 <div class="custom-control custom-switch">
@@ -174,7 +181,7 @@
                                     <?= lang('customer_notifications_hint') ?>
                                 </span>
                             </div>
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <div class="custom-control custom-switch">
                                     <input type="checkbox" class="custom-control-input" id="require-captcha">
                                     <label class="custom-control-label" for="require-captcha">
@@ -184,7 +191,7 @@
                                 <span class="form-text text-muted">
                                     <?= lang('require_captcha_hint') ?>
                                 </span>
-                            </div>
+                            </div> -->
                             <div class="form-group">
                                 <div class="custom-control custom-switch">
                                     <input type="checkbox" class="custom-control-input" id="require-phone-number">
@@ -196,7 +203,7 @@
                                     <?= lang('require_phone_number_hint') ?>
                                 </span>
                             </div>
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <div class="custom-control custom-switch">
                                     <input type="checkbox" class="custom-control-input" id="display-any-provider">
                                     <label class="custom-control-label" for="display-any-provider">
@@ -206,7 +213,7 @@
                                 <span class="help-block">
                                     <?= lang('display_any_provider_hint') ?>
                                 </span>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </fieldset>
@@ -220,13 +227,13 @@
             <form>
                 <fieldset>
                     <legend class="border-bottom mb-4">
-                        <?= lang('business_logic') ?>
+                        <!-- <?= lang('business_logic') ?> -->
                         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['edit'] == TRUE): ?>
-                            <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
+                            <!-- <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
                                     data-tippy-content="<?= lang('save') ?>">
                                 <i class="fas fa-check-square mr-2"></i>
                                 <?= lang('save') ?>
-                            </button>
+                            </button> -->
                         <?php endif ?>
                     </legend>
 
@@ -251,7 +258,7 @@
                             <div class="text-right">
                                 <button class="btn btn-outline-secondary" id="apply-global-working-plan" type="button">
                                     <i class="fas fa-check"></i>
-                                    <?= lang('apply_to_all_providers') ?>
+                                    <?= 'Aplicar Cambios' ?>
                                 </button>
                             </div>
 
@@ -293,8 +300,15 @@
                                     <th><?= lang('actions') ?></th>
                                 </tr>
                                 </thead>
+                                
                                 <tbody><!-- Dynamic Content --></tbody>
                             </table>
+                            <div class="text-right">
+                                <button class="btn btn-outline-secondary" id="apply-global-working-plan1" type="button">
+                                    <i class="fas fa-check"></i>
+                                    <?= 'Aplicar Cambios' ?>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </fieldset>
@@ -498,7 +512,7 @@
         <!-- ABOUT TAB -->
 
         <div class="tab-pane" id="about-app">
-            <h3>Easy!Appointments</h3>
+            <h3>Pixi</h3>
 
             <p>
                 <?= lang('about_app_info') ?>
@@ -518,7 +532,7 @@
 
                 <br><br>
 
-                <a href="https://easyappointments.org">
+                <a href="https://www.pixi.com">
                     <?= lang('official_website') ?>
                 </a>
                 |
