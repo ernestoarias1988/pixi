@@ -222,11 +222,11 @@
                     <legend class="border-bottom mb-4">
                         <?= lang('business_logic') ?>
                         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['edit'] == TRUE): ?>
-                            <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
+                            <!-- <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
                                     data-tippy-content="<?= lang('save') ?>">
                                 <i class="fas fa-check-square mr-2"></i>
                                 <?= 'Guardar cambios' ?>
-                            </button>
+                            </button> -->
                         <?php endif ?>
                     </legend>
 
@@ -249,10 +249,10 @@
                             </table>
 
                             <div class="text-right">
-                                <!-- <button class="btn btn-outline-secondary" id="apply-global-working-plan" type="button">
+                                <button class="btn btn-outline-secondary" id="apply-global-working-plan" type="button">
                                     <i class="fas fa-check"></i>
-                                    <?= lang('apply_to_all_providers') ?>
-                                </button> -->
+                                    <?= 'Aplicar Cambios' ?>
+                                </button>
                             </div>
 
                             <br>
@@ -267,11 +267,11 @@
                                     <?= lang('book_advance_timeout_hint') ?>
                                 </p>
                             </div>
-                            <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
+                            <!-- <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
                                     data-tippy-content="<?= lang('save') ?>">
                                 <i class="fas fa-check-square mr-2"></i>
-                                <?= 'Guardar cambios' ?>
-                            </button>
+                                <?= 'Guardar cambios2' ?>
+                            </button> -->
                         </div>
                         <div class="col-12 col-sm-5 breaks-wrapper">
                             <h4><?= lang('breaks') ?></h4>
@@ -300,11 +300,11 @@
                                 </thead>
                                 <tbody><!-- Dynamic Content --></tbody>
                             </table>
-                            <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
-                                    data-tippy-content="<?= lang('save') ?>">
+                            <!-- <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
+                                   data-tippy-content="<?= lang('save') ?>">
                                 <i class="fas fa-check-square mr-2"></i>
-                                <?= 'Guardar cambios' ?>
-                            </button>
+                                <?= 'Guardar cambios3' ?>
+                            </button> -->
                         </div>
                     </div>
                 </fieldset>
