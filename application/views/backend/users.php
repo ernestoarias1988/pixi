@@ -37,7 +37,7 @@
 <div class="container-fluid backend-page" id="users-page">
 
     <!-- PAGE NAVIGATION -->
-    <!-- <ul class="nav nav-pills">
+    <ul class="nav nav-pills">
         <li class="nav-item">
             <a class="nav-link active" href="#providers" data-toggle="tab">
                 <?= lang('providers') ?>
@@ -53,7 +53,7 @@
                 <?= lang('admins') ?>
             </a>
         </li>
-    </ul> -->
+    </ul>
 
     <div class="tab-content">
 
