@@ -37,7 +37,7 @@
 <div class="container-fluid backend-page" id="users-page">
 
     <!-- PAGE NAVIGATION -->
-    <ul class="nav nav-pills">
+    <!-- <ul class="nav nav-pills">
         <li class="nav-item">
             <a class="nav-link active" href="#providers" data-toggle="tab">
                 <?= lang('providers') ?>
@@ -53,7 +53,7 @@
                 <?= lang('admins') ?>
             </a>
         </li>
-    </ul>
+    </ul> -->
 
     <div class="tab-content">
 
@@ -62,7 +62,7 @@
         <div class="tab-pane active" id="providers">
             <div class="row">
                 <div id="filter-providers" class="filter-records column col-12 col-md-5">
-                    <form class="mb-4">
+                    <!-- <form class="mb-4">
                         <div class="input-group">
                             <input type="text" class="key form-control">
 
@@ -79,9 +79,9 @@
                                 </div>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
 
-                    <h3><?= lang('providers') ?></h3>
+                    <h3><?= 'Seleccionar Especialista' ?></h3>
                     <div class="results"></div>
                 </div>
 
@@ -90,11 +90,11 @@
                         <div class="add-edit-delete-group btn-group">
                             <button id="add-provider" class="btn btn-primary">
                                 <i class="fas fa-plus-square mr-2"></i>
-                                <?= lang('add') ?>
+                                <?= 'Agregar nuevo' ?>
                             </button>
                             <button id="edit-provider" class="btn btn-outline-secondary" disabled="disabled">
                                 <i class="fas fa-edit mr-2"></i>
-                                <?= lang('edit') ?>
+                                <?= 'Editar' ?>
                             </button>
                             <button id="delete-provider" class="btn btn-outline-secondary" disabled="disabled">
                                 <i class="fas fa-trash-alt mr-2"></i>
@@ -116,12 +116,12 @@
 
                     <ul class="nav nav-pills switch-view">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#details" data-toggle="tab">
+                            <a class="nav-link" href="#details" data-toggle="tab">
                                 <?= lang('details') ?>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#working-plan" data-toggle="tab">
+                            <a class="nav-link active" href="#working-plan" data-toggle="tab">
                                 <?= lang('working_plan') ?>
                             </a>
                         </li>
@@ -285,10 +285,10 @@
 
                         <div class="working-plan-view tab-pane fade clearfix" id="working-plan">
                             <h3><?= lang('working_plan') ?></h3>
-                            <button id="reset-working-plan" class="btn btn-primary"
+                            <!-- <button id="reset-working-plan" class="btn btn-primary"
                                     data-tippy-content="<?= lang('reset_working_plan') ?>">
                                 <i class="fas fa-redo-alt mr-2"></i>
-                                <?= lang('reset_plan') ?></button>
+                                <?= lang('reset_plan') ?></button> -->
                             <table class="working-plan table table-striped mt-2">
                                 <thead>
                                 <tr>

@@ -31,11 +31,11 @@
                 <?= lang('services') ?>
             </a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" href="#categories" data-toggle="tab">
                 <?= lang('categories') ?>
             </a>
-        </li>
+        </li> -->
     </ul>
 
     <div class="tab-content">
