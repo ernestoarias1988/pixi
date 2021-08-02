@@ -33,29 +33,31 @@
 
 <div id="settings-page" class="container-fluid backend-page">
     <ul class="nav nav-pills">
+    <?php if ($privileges[PRIV_SYSTEM_SET TINGS]['view'] == TRUE): ?>
+            <!-- <li class="nav-item">, m 
+                
+             <a class="nav-link" href="#business-logic" data-toggle="tab"><?= lang('business_logic') ?></a>
+            </li> -->
+        <?php endif ?>
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#general" data-toggle="tab"><?= lang('general') ?></a>
-            </li>
+            </li> -->
         <?php endif ?>
+
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
-            <li class="nav-item">
-                <a class="nav-link" href="#business-logic" data-toggle="tab"><?= lang('business_logic') ?></a>
-            </li>
-        <?php endif ?>
-        <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#legal-contents" data-toggle="tab"><?= lang('legal_contents') ?></a>
-            </li>
+            </li> -->
         <?php endif ?>
         <?php if ($privileges[PRIV_USER_SETTINGS]['view'] == TRUE): ?>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#current-user" data-toggle="tab"><?= lang('current_user') ?></a>
-            </li>
+            </li> -->
         <?php endif ?>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" href="#about-app" data-toggle="tab"><?= lang('about_app') ?></a>
-        </li>
+        </li> -->
     </ul>
 
     <div class="tab-content">
