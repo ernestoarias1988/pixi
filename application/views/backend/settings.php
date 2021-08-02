@@ -33,11 +33,10 @@
 
 <div id="settings-page" class="container-fluid backend-page">
     <ul class="nav nav-pills">
-    <?php if ($privileges[PRIV_SYSTEM_SET TINGS]['view'] == TRUE): ?>
-            <!-- <li class="nav-item">, m 
-                
-             <a class="nav-link" href="#business-logic" data-toggle="tab"><?= lang('business_logic') ?></a>
-            </li> -->
+    <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
+            <li class="nav-item">
+             <a class="hiden" href="#business-logic" data-toggle="tab"></a>
+            </li>
         <?php endif ?>
         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['view'] == TRUE): ?>
             <!-- <li class="nav-item">
@@ -222,7 +221,7 @@
             <form>
                 <fieldset>
                     <legend class="border-bottom mb-4">
-                        <?= lang('business_logic') ?>
+                       
                         <?php if ($privileges[PRIV_SYSTEM_SETTINGS]['edit'] == TRUE): ?>
                             <!-- <button type="button" class="save-settings btn btn-primary btn-sm mb-2"
                                     data-tippy-content="<?= lang('save') ?>">
